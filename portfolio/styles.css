@@ -1,0 +1,132 @@
+h1 {
+    color: #4B0082;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+
+  h2, .highlight {
+    color: white;
+    background-color: #663399;
+    padding: 2px 5px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#intro p{
+  color: #999;
+  font-family: 'Loved by the King', cursive;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+
+.jobdescription {
+  font-family:'Montserrat', sans-serif;
+}
+
+  #intro {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #social {
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+  }
+
+ ul li::after{
+    content: "|";
+    padding: 6px;
+    list-style-type: none;
+    padding left: 0;
+  }
+
+  ul li{
+    display: inline-block;
+  }
+
+ul li:last-child::after{
+    content: "";
+  }
+
+  p{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #welcome p{
+    font-family: 'Loved by the King', cursive;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  #about p {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Loved by the King', cursive;
+}
+
+#picture {
+  text-align: center;
+}
+
+#navigation {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#videos {
+  text-align: center;
+}
+
+#videowork p{
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Loved by the King', cursive;
+}
+
+
+.box1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:#726DA8;
+}
+
+.box2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:#AFB3F7;
+}
+
+.box3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:#FDFDFF ;
+}
+
+.box4 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:#1B1725 ;
+    color:#999;
+}
+
+.box5 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:#93BCAD;
+}
