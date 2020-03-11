@@ -1,7 +1,7 @@
 h1 {
     color: #4B0082;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Loved by the King', sans-serif;
     letter-spacing: 2px;
     font-size: 26px;
     font-weight: normal;
@@ -14,7 +14,7 @@ h1 {
     padding: 2px 5px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -36,7 +36,7 @@ h1 {
     text-align: center;
     width: 80%;
     margin: 0 auto 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Loved by the King', sans-serif;
   }
 
   #social {
@@ -44,7 +44,7 @@ h1 {
     font-family:'Montserrat', sans-serif;
   }
 
- ul li::after{
+ ul li::after {
     content: "|";
     padding: 6px;
     list-style-type: none;
@@ -129,4 +129,16 @@ ul li:last-child::after{
   width: 100px;
   height: 100px;
   background-color:#93BCAD;
+}
+
+.footer {
+  color: black;
+  text-align: center;
+}
+
+.container1 div {
+  flex-grow: 1;
+  background-color: #AFB3F7;
+  min-height: 200px;
+  margin: 10px auto;
 }
