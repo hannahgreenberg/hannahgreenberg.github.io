@@ -3,7 +3,7 @@ h1 {
     text-transform: uppercase;
     font-family: 'Loved by the King', sans-serif;
     letter-spacing: 2px;
-    font-size: 26px;
+    font-size: 80px;
     font-weight: normal;
     margin-bottom: 5px;
   }
@@ -15,21 +15,21 @@ h1 {
   }
 
   h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
 #intro p{
-  color: #999;
+  color: white;
   font-family: 'Loved by the King', cursive;
   font-style: italic;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 43px;
   letter-spacing: 2px;
   margin-top: 0px;
 }
 
 .jobdescription {
-  font-family:'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
   #intro {
@@ -41,7 +41,7 @@ h1 {
 
   #social {
     text-align: center;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
  ul li::after {
@@ -60,7 +60,7 @@ ul li:last-child::after{
   }
 
   p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   #welcome p{
@@ -81,7 +81,7 @@ ul li:last-child::after{
 
 #navigation {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #videos {
@@ -136,9 +136,47 @@ ul li:last-child::after{
   text-align: center;
 }
 
+.container1 {
+display: flex;
+}
+
 .container1 div {
   flex-grow: 1;
   background-color: #AFB3F7;
   min-height: 200px;
   margin: 10px auto;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  background-size: contain;
+}
+
+.column1 {
+  display: flex;
+}
+
+.column1 div {
+  flex-grow: 1;
+  margin: 10px 10px;
+  min-height: 200px;
+}
+
+.column2 {
+  display: flex;
+}
+
+.column2 div {
+  flex-grow: 1;
+  margin: 10px 10px;
+  min-height: 200px;
+}
+
+#Experience h5{
+  font-style: italic;
+}
+
+#Experience {
+  line-height: 20px;
 }
